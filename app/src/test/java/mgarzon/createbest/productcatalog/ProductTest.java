@@ -21,7 +21,7 @@ public class ProductTest {
         // I am making this test to fail
         double a = 180;
         Product aProduct = new Product("1", "DELL MONITOR", 180);
-        assertEquals("Check the price of the product", Double.parseDouble("180"), aProduct.getPrice());
+        assertEquals("Check the price of the product", 180, aProduct.getPrice(),0.001);
     }
 
 
